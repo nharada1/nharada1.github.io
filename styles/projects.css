@@ -1,0 +1,36 @@
+@import url("./style.css");
+
+#content {
+	height:2000px;
+}
+
+#projects li {
+	margin:12px 0px;
+	padding: 20px;
+	clear:both;
+	float:left;
+	list-style-type:none;
+}
+
+#projects li:nth-child(even){
+	background-color:#999;
+}
+
+
+.project-image {
+	margin:12px 0px;
+	padding:12px 0px;
+	float:left;
+}
+
+.project-text {
+	float:right;
+	width:560px;
+	margin:0px 26px;
+}
+
+em {
+	font-weight:bold;
+}
+
+
