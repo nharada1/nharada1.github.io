@@ -1,7 +1,7 @@
 @import url("./style.css");
 
 #content {
-	height:2900px;
+	height:2800px;
 }
 
 #projects li {
@@ -12,7 +12,7 @@
 	list-style-type:none;
 }
 
-#projects li:nth-child(even){
+#projects li:nth-child(odd){
 	background-color:#999;
 }
 
